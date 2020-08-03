@@ -29,9 +29,9 @@ class ViewController: UIViewController {
   
     @IBAction func calculateTip(_ sender: Any) {
         let bill = Double(billField.text!) ?? 0
-        
-        tipNumber.text = String(format: "%i%%", Int(tipSlider.value))
-        let tip = Int(bill * Double((tipSlider.value) / 100))
+        let tipValue = Int(tipSlider.value)
+        tipNumber.text = String(format: "%i%%", tipValue)
+        let tip = bill * (Double(tipValue) / 100)
         let total = bill + Double(tip)
 
         tipLabel.text = String(format: "%$%.2f", Double(tip))
