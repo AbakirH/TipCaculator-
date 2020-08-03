@@ -23,7 +23,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I had trouble to make sure that the slidar value was not a decimal, and make it so that the tip was off the expected the amount.
+I had trouble to make sure that the slidar value was not a decimal, and make it so that the tip value was the expected the amount.
 
 ## License
 
